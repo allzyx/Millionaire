@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fifth</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="questionBody">
+<div class = "back">
+    <button class="back_button" onclick="window.location.href='between.html'">ВОПРОСЫ</button>
+</div>
+<div class = "hints-container">
+    <div class="hints_element half"></div>
+    <div class="hints_element call"></div>
+    <div class="hints_element clue"></div>
+</div>
+<img class="formula1" src="img/formula1.jpg" alt="">
+
+<div class = "question">
+    Что рассчитывает данная формула:
+</div>
+
+<div class = "container_option">
+    <div class = "first_row">
+        <div class = "option option_1">
+            <button type="button" class = "wrong_option" onclick="playSoundWrong()"><span>A:</span> Коэффициент детерминации</button>
+        </div>
+        <div class = "option option_2">
+            <button type="button" class="right_option" onclick="playSoundRight()"><span>B:</span> Линейный ĸоэффициент ĸорреляции</button>
+        </div>
+    </div>
+    <div class = "second_row">
+        <div class = "option option_3">
+            <button type="button" class="wrong_option" onclick="playSoundWrong()"><span>C:</span> Коэффициент эластичности</button>
+        </div>
+        <div class = "option option_4">
+            <button type="button" class="wrong_option" onclick="playSoundWrong()"><span>D:</span> Коэффициент числа наблюдений</button>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
